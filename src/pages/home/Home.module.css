@@ -1,0 +1,12 @@
+.bgHome {
+    /* background-image: url("/fondEcran.jpg");
+    background-size: cover;
+    height: 100vh; */
+}
+
+.bgTitre{
+    padding-top: 50px;
+    text-align: center;
+    color: #273586;
+    font-size: 30px;
+}

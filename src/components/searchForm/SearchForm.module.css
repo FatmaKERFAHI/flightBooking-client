@@ -1,0 +1,91 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/Airplane.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 100px rgba(0, 0, 0, .5);
+}
+.aeroportDepart{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color:rgb(37, 35, 31);
+    padding: 10px 13px 0px 9px;
+    font-family: arial;
+}
+
+
+.aeroportDestination{
+     display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color:rgb(37, 35, 31);
+    padding: 10px 13px 0px 9px;
+    font-family: arial;
+}
+
+
+.ageVoyageur{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color:rgb(37, 35, 31);
+    padding: 20px 13px 0px 9px;
+    font-family: arial;
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color:rgb(37, 35, 31);
+    padding: 10px 13px 0px 9px;
+    font-family: arial;
+ }
+
+
+.date {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color:rgb(37, 35, 31);
+    padding: 20px 13px 0px 9px;
+    font-family: arial;
+   
+}
+
+.searchBody {
+    max-width: 900px;
+    margin: 0 auto;
+    background-image: linear-gradient(to top, #3d2161 0%, #e9ecef 100%);
+    opacity: 0.9;
+    border-radius: 10px;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btnSearch {
+        width: 100%;
+        line-height: 60px;
+        font-family: inherit;
+        background: #ed5f74;
+        border-radius: 10px;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+        transition: all 0.4s ease;
+        margin-top: 38px
+}
+
+.text2{
+    padding-top: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+  }
+
+

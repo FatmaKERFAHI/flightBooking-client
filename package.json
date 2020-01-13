@@ -1,0 +1,55 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/lab": "^4.0.0-alpha.39",
+    "@material-ui/pickers": "^3.2.8",
+    "@material-ui/styles": "^4.8.2",
+    "axios": "^0.19.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "material-table": "^1.54.2",
+    "material-ui": "^0.20.2",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "material-ui-table": "^0.1.2",
+    "react": "^16.9.0",
+    "react-async": "^10.0.0",
+    "react-autocomplete": "^1.8.1",
+    "react-dates": "^21.5.1",
+    "react-dom": "^16.9.0",
+    "react-numeric-input": "^2.2.3",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.1.1",
+    "react-stripe-elements": "^4.0.0",
+    "react-tap-event-plugin": "^3.0.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "stripe": "^7.8.0"
+  },
+  "proxy": "http://localhost:4242",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
