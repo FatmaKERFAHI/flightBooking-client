@@ -1,6 +1,6 @@
 const createPaymentIntent = options => {
   return window
-    .fetch(`/create-payment-intent`, {
+    .fetch(`/payment/create-payment-intent`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -26,7 +26,7 @@ const createPaymentIntent = options => {
 
 const getProductDetails = options => {
   return window
-    .fetch(`http://localhost:8081/flight/fetchFlight/` + options.idFlight, {
+    .fetch(`/flight/fetchFlight/` + options.idFlight, {
       method: "GET",
       headers: {
         "Content-Type": "application/json"
@@ -51,7 +51,7 @@ const getProductDetails = options => {
 
 const getPublicStripeKey = options => {
   return window
-    .fetch(`/public-key`, {
+    .fetch(`/payment/public-key`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json"

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {BrowserRouter as Router, Route, Redirect, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Checkout from "./checkout";
 import SearchForm from "./components/searchForm/SearchForm";
 import ConfirmationFlight from "./pages/ConfirmationFlight";
